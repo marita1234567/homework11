@@ -1,0 +1,99 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    position: relative;
+}
+.conteiner{
+    width: 1505px;
+height: 866px;
+
+}
+.sun{
+position: absolute;
+top: 0px;
+width: 272px;
+height: 263px;
+top: 36px;
+left: 950px;
+animation-name: sun;
+animation-duration: 15s;
+animation-delay: 1s;
+
+}
+.mario1{
+    width: 119px;
+height: 127px;
+top: 132px;
+left: -70px;
+gap: 0px;
+
+
+}
+.sun3{
+position: absolute;
+top: 0px;
+width: 119px;
+height: 127px;
+top: 130px;
+left: 1500px;
+padding-top: 665px;
+animation-name: mario_man;
+animation-duration: 7s;
+animation-delay: 1s;
+}
+.sun4{
+position: absolute;
+top: 0px;
+padding-top: 660px;
+animation-name: mario_man2;
+animation-duration: 5s;
+animation-delay: 1s;
+left: 400px;
+
+}
+
+
+@keyframes mario_man {
+    from{
+        left: 1500px;
+    }
+    to{
+        left: 600px;
+    }
+  
+}
+@keyframes mario_man2 {
+    from{
+        left: 400px;
+    }
+    to{
+        left: 1500px;
+    }
+}
+@keyframes sun {
+0%{
+    transform: rotate(0deg);
+}
+100%{
+    transform: rotate(360deg);
+}
+}
+
+.tree{
+position: absolute;
+top: 0px;
+padding-top: 660px;
+animation-name: home;
+animation-duration: 5s;
+animation-delay: 2s;
+padding-left: 1400px;
+top: -200px;
+
+}
+
