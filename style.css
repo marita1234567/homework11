@@ -19,11 +19,11 @@ position: absolute;
 top: 0px;
 width: 272px;
 height: 263px;
-top: 36px;
+top: 100px;
 left: 950px;
 animation-name: sun;
-animation-duration: 15s;
-animation-delay: 1s;
+animation-duration: 25s;
+animation-delay: 0,5ms;
 
 }
 .mario1{
@@ -44,17 +44,20 @@ top: 130px;
 left: 1500px;
 padding-top: 665px;
 animation-name: mario_man;
-animation-duration: 7s;
-animation-delay: 1s;
+animation-duration: 10s;
+animation-delay: 0,5ms;
+animation: mario_man 10s linear infinite alternate;
+
 }
 .sun4{
 position: absolute;
 top: 0px;
 padding-top: 660px;
 animation-name: mario_man2;
-animation-duration: 5s;
-animation-delay: 1s;
 left: 400px;
+animation-duration: 8s;
+animation-delay: 1s;
+animation: mario_man2 8s linear infinite alternate;
 
 }
 
@@ -64,16 +67,34 @@ left: 400px;
         left: 1500px;
     }
     to{
-        left: 600px;
+        left: 800px;
     }
-  
 }
+@keyframes mario_return{
+    from{
+        left: 800px;
+    }
+    to{
+        left: 1500px;
+    }
+}
+    
+
+    
 @keyframes mario_man2 {
     from{
         left: 400px;
     }
     to{
         left: 1500px;
+    }
+}
+@keyframes mario_return{
+    from{
+        left:1500px ;
+    }
+    to{
+        left:400px ;
     }
 }
 @keyframes sun {
@@ -94,6 +115,18 @@ animation-duration: 5s;
 animation-delay: 2s;
 padding-left: 1400px;
 top: -200px;
+animation-name: home;
+animation-duration: 1s;
+animation-delay: 1s;
+animation: home 2s linear infinite alternate;
+}
 
+@keyframes home {
+from{
+    left:-1100px;
+    }
+    to{
+        left: 400px;
+    }
 }
 
