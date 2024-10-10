@@ -12,6 +12,7 @@ body{
 .conteiner{
     width: 1505px;
 height: 866px;
+position: relative;
 
 }
 .sun{
@@ -42,7 +43,7 @@ width: 119px;
 height: 127px;
 top: 130px;
 left: 1500px;
-padding-top: 665px;
+padding-top: 610px;
 animation-name: mario_man;
 animation-duration: 10s;
 animation-delay: 0,5ms;
@@ -52,7 +53,7 @@ animation: mario_man 10s linear infinite alternate;
 .sun4{
 position: absolute;
 top: 0px;
-padding-top: 660px;
+padding-top: 580px;
 animation-name: mario_man2;
 left: 400px;
 animation-duration: 8s;
